@@ -19,3 +19,8 @@ docker rm -f hello-world-cntr
 ### Execute command inside container:
 docker exec -it hello-world-cntr bash
 
+### links:
+
+https://github.com/mist64/xhyve<br>
+https://github.com/moby/hyperkit<br>
+https://hharnisc.github.io/2016/06/16/developing-inside-docker-containers-with-osx-2016.html
