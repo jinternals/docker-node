@@ -3,7 +3,7 @@
 docker build -t hello-world .<br>
 docker run -d --name hello-world-cntr hello-world
 
-###Tag and push docker container to registry(docker hub):
+### Tag and push docker container to registry(docker hub):
 docker login<br>
 docker tag hello-world mradulpandey001/hello-world:latest<br>
 docker push mradulpandey001/hello-world<br>
