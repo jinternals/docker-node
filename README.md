@@ -19,6 +19,20 @@ docker rm -f hello-world-cntr
 ### Execute command inside container:
 docker exec -it hello-world-cntr bash
 
+### Import and export containers
+docker export --output="hello.tar" hello-world-cntr <br>
+docker import hello.tar --message "New image imported from hello.tar"
+
+### Committing changes to docker container image
+docker exec -it hello-world-cntr bash <br>
+nana server.js <br>
+docker commit hello-world-cntr hello-world-v1 <br>
+docker run -d --name hello-world-cntr hello-world-v1 <br>
+
+### Optimize image correctly
+
+
+
 ### links:
 
 https://github.com/mist64/xhyve<br>
