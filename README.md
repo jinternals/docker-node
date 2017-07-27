@@ -31,7 +31,14 @@ docker run -d --name hello-world-cntr hello-world-v1 <br>
 
 ### Optimize image correctly
 
+Do it now :)
 
+
+### Docker Machine
+
+docker-machine create --driver virtualbox default <br>
+docker-machine env default <br>
+eval $(docker-machine env default)
 
 ### links:
 

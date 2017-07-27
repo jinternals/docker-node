@@ -1,0 +1,9 @@
+.git
+.ipynb_checkpoints/*
+/notebooks/*
+/unused/*
+/.idea/*
+Dockerfile
+.DS_Store
+.gitignore
+README.md
