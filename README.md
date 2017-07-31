@@ -25,7 +25,7 @@ docker import hello.tar --message "New image imported from hello.tar"
 
 ### Committing changes to docker container image
 docker exec -it hello-world-cntr bash <br>
-nana server.js <br>
+nano server.js <br>
 docker commit hello-world-cntr hello-world-v1 <br>
 docker run -d --name hello-world-cntr hello-world-v1 <br>
 
